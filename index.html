@@ -20,6 +20,9 @@
     .main-color{
       color: #FF4240;
     }
+    .bg-test{
+      background-image: linear-gradient(rgba(19,19,24,0.8)0%,rgba(19,19,24,0)100%),url(/Images/2.png);
+    }
   </style>
   <!-- tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -144,14 +147,41 @@
       </div>
     </section>
     <!-- program section -->
-    <section class="text-center mt-28">
+    <section class="text-center mt-6 lg:mt-28">
       <hr class="border-dashed border-1 border-[#13131833]">
       <div class="my-10 justify-items-center">
-        <h1 class="text-3xl font-extrabold mb-6">Professional Hockeys Club</h1>
-        <p class="text-base font-medium text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        <h1 class="text-xl lg:text-3xl font-extrabold mb-6">Professional Hockeys Club</h1>
+        <p class="text-sm lg:text-base font-medium text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
       </div>
       <hr class="border-dashed border-1 border-[#13131833]">
-    </section>
+      <div class="flex flex-col lg:grid lg:grid-cols-2 gap-4 my-6">
+        <div class="bg-[url('/Images/2.png')] bg-no-repeat bg-cover lg:h-[338px] rounded-2xl">
+          <div class="text-left text-white px-10 py-6 lg:translate-y-24 lg:w-[550px]">
+            <h3 class="text-xl lg:text-3xl font-bold">Junior Program</h3>
+            <p class="text-sm lg:text-base font-medium mt-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+            <button class="btn bg-[#FF4240] border-none text-white text-lg lg:text-xl font-bold px-6 mt-6">Register Now!</button>
+          </div>
+        </div>
+        <div class="bg-[url('/Images/2.png')] bg-no-repeat bg-cover lg:h-[338px] rounded-2xl">
+          <div class="text-left text-white px-10 py-6 lg:translate-y-24 lg:w-[550px]">
+            <h3 class="text-xl lg:text-3xl font-bold">Teenager Program</h3>
+            <p class="text-sm lg:text-base font-medium mt-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+            <button class="btn bg-[#FF4240] border-none text-white text-lg lg:text-xl font-bold px-6 mt-6">Register Now!</button>
+          </div>
+        </div>
+        </div>
+        <div class="lg:col-span-3 bg-[url('/Images/4.png')] bg-no-repeat bg-cover lg:h-[450px] rounded-2xl">
+          <div class="text-left text-white px-10 py-6 lg:translate-y-52 lg:w-[550px]">
+            <h3 class="text-xl lg:text-3xl font-bold">Professional Program</h3>
+            <p class="text-sm lg:text-base font-medium mt-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+              <button class="btn bg-[#FF4240] border-none text-white text-lg lg:text-xl font-bold px-6 mt-6">Register Now!</button>
+          </div>
+        </div>
+      </div>
+      </section>
   </main>
   <footer>
 
